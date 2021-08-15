@@ -9,7 +9,7 @@ public interface VehicleIF
 
     // decreases the vehicle gear - returns true if the change
     // was successul, false if it is already in first gear
-    Integer gearDown(Integer num);
+    Boolean gearDown(Integer num);
 
     // takes the vehicle out of gear
     void stop();
