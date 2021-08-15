@@ -1,9 +1,14 @@
 public with sharing class Bicycle 
 {
     // bikes have front and rear cassettes. 
+
     // they accelerate by moving up through the rear gears,
     // then simultaneously moving to the next front gear while
     // dropping back to the first rear gear
+
+    // the decelerate by moving down through the rear gears
+    // then simultaneously moving down the front gear while
+    // moving to the highest rear gear
     private Integer frontGears;
     private Integer rearGears;
 
